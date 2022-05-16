@@ -1,0 +1,20 @@
+{
+  "name": "defipay-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-kubor/defipay-sdk.git"
+  },
+  "keywords": [],
+  "author": "王恩博 <webkubor@163.com> (http://wangenbo.cn/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-kubor/defipay-sdk/issues"
+  },
+  "homepage": "https://github.com/web-kubor/defipay-sdk#readme"
+}
