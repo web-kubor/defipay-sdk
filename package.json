@@ -1,10 +1,13 @@
 {
   "name": "defipay-sdk",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "defipay Related query data for the server",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js",
+    "serve": "rollup -c -w",
+    "build": "rollup -c rollup.config.js",
+    "publish": "npm run publish"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/web-kubor/defipay-sdk/issues"
   },
-  "homepage": "https://github.com/web-kubor/defipay-sdk#readme"
+  "homepage": "https://github.com/web-kubor/defipay-sdk#readme",
+  "dependencies": {
+    "flyio": "^0.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup": "^2.73.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
 }
